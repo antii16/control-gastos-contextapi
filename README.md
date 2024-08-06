@@ -1,30 +1,60 @@
-# React + TypeScript + Vite
+<h1 align="center"> Control de gastos y presupuesto</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/2a7aa6ed-58bd-46f4-bca7-58fc028ac1e8" alt="Gasto y Presupuesto">
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2> :page_facing_up: Descripción del proyecto</h2>
 
-## Expanding the ESLint configuration
+<p> La aplicación consiste en definir un presupuesto y los sucesivos gastos. 
+  En primer lugar, se añade un presupuesto y se van añadiendo gastos. El presupuesto se va 
+actualizando. También se puede filtrar los gastos en función de la categoría.
+Un gasto también se puede eliminar y actualizar. Al igual que reiniciar la app. </p>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<b>Proyecto: <a href="https://precious-blancmange-f1dc93.netlify.app" target="_blank">Control de gastos y presupuesto<a></b>
 
-- Configure the top-level `parserOptions` property like this:
+<h2> :heavy_check_mark: Características</h2>
+<p> Proyecto creado en React donde se aprenderá a inferir el Type de un evento, 
+se introducirá la utilización del useReducer, se generarán ID's únicos con la dependencia uuid. 
+  También se ha aplicado el useContext para tener un estado global, sin la necesidad de utilizar props.
+</p>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+<h2> :hammer: Tecnologías aplicadas</h2>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<ul>
+  <li>React</li>
+  <li>Vite</li>
+  <li>TypeScript</li>
+  <li>TailwindCSS</li>
+  <li>JSX</li>
+</ul>
+
+<h2> :hammer: Dependencias</h2>
+<ul>
+  <li>Headless UI 
+    <ul>
+      <li>npm i @headlessui/react</li>
+      <li>npm i @heroicons/react</li>
+    </ul>
+  </li>
+  <li>UUID
+   <ul>
+      <li>npm i uuid</li>
+    </ul>
+  </li>
+  <li>Swipe
+   <ul>
+      <li>npm i react-swipeable-list</li>
+    </ul>
+  </li>
+  <li>Gráfico
+   <ul>
+      <li>npm i react-circular-progressbar</li>
+    </ul>
+  </li>
+</ul>
+
+
+<h2>Idea del proyecto</h2>
+<p>Este proyecto fue realizado durante el curso de <a href="https://www.udemy.com/course/react-de-principiante-a-experto-creando-mas-de-10-aplicaciones/?couponCode=KEEPLEARNING">React y TypeScript</a></p>
